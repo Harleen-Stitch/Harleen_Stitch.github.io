@@ -46,11 +46,11 @@
             <input type="hidden" name="access_key" value="0c65d1c1-729a-4b9b-82ea-a868e40ee6a3" />
           <div>
             <label for="name">Nom : </label>
-            <input id="name" type="text" placeholder="NOM" required/>
+            <input id="name" type="text" name="name" placeholder="NOM" required/>
           </div>
           <div>
             <label for="firstname">Prénom : </label>
-            <input type="text" name="firstname" id="firstname" placeholder="Prénom" required/>
+            <input id="firstname" type="text" name="firstname"  placeholder="Prénom" required/>
           </div>
           <div>
             <label for="number">Téléphone : </label>
@@ -62,7 +62,7 @@
           </div>
           <div>
             <label for="msg">Message : </label>
-            <textarea type="text" name="message" id="msg" placeholder="Entrez votre message" required></textarea>
+            <textarea type="text" name="message" id="msg" placeholder="Entrez votre message et indiquez vos disponibilités" required></textarea>
           </div>
           <div>
             <label for="dispo">Diponibilités : </label>
@@ -71,7 +71,7 @@
             <div>
                 <input type="checkbox" id="recontacter" name="recontacter" required />
                 <label for="recontacter">J'accepte d'être recontacter.</label>
-  </div>
+            </div>
            <!-- Honeypot Spam Protection -->
           <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
@@ -116,5 +116,4 @@
             </div>
         </div>
     </footer>
-
 </body>
