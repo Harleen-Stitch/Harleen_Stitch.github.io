@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" >
+    <title>Contact - Kenza TRAFARSKI</title>
+    <link href="style.css" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+
+  
+</head>
+
+<body>
+    <header>
+        <nav>
+             <div class="nav">
+                <a href="a_propos.html">A propos</a>
+            </div>
+            <div class="nav">
+                <span>CV</span>
+                <ul class="sous-nav">
+                    <li><a href="formations.html">Formations</a></li>
+                    <li><a href="experiences.html">Expériences</a></li>
+            </ul>
+            </div>
+            <div class="nav">
+                <a href="loisirs.html">Loisirs</a>
+            </div>
+            <div class="nav">
+                <a href="documents.html">Documents</a>
+            </div>
+            <div class="nav">
+                <a href="blog.html">Blog</a>
+            </div>
+            <div class="nav">
+                <a href="contact.html">Me Contacter</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formulaire de contact</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="0c65d1c1-729a-4b9b-82ea-a868e40ee6a3" />
+          <div>
+            <label for="name">Nom : </label>
+            <input id="name" type="text" placeholder="NOM" required/>
+          </div>
+          <div>
+            <label for="firstname">Prénom : </label>
+            <input type="text" name="firstname" id="firstname" placeholder="Prénom" required/>
+          </div>
+          <div>
+            <label for="number">Téléphone : </label>
+            <input type="tel" name="number" id="number" placeholder="0123456789" required/>
+          </div>
+          <div>
+            <label for="mail">Email : </label>
+            <input type="email" name="mail" id="mail" placeholder="mon_email@email.com" required/>
+          </div>
+          <div>
+            <label for="msg">Message : </label>
+            <textarea type="text" name="message" id="msg" placeholder="Entrez votre message" required></textarea>
+          </div>
+          <div>
+            <label for="dispo">Diponibilités : </label>
+            <textarea type="text" name="dispo" id="dispo" placeholder="Indiquez quand vous contacter"></textarea>
+          </div>
+            <div>
+                <input type="checkbox" id="recontacter" name="recontacter" required />
+                <label for="recontacter">J'accepte d'être recontacter.</label>
+  </div>
+           <!-- Honeypot Spam Protection -->
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+          <div class="button">
+            <button type="submit" id="submitButton">Envoyer le message</button>
+          </div>
+
+
+
+
+          
+
+
+    <!-- Custom Confirmation / Success Page -->
+    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+ 
+
+</form>
+    </main>
+
+
+
+    <footer>
+        <div class="coordonnees">
+            <div class="adress">
+                <span>Adresse</span>
+                <br/>3&nbsp;avenue d'Orléans
+                <br/>18000&nbsp;Bourges
+            </div>
+            <div class="phone">
+                <span>Téléphone</span>
+                <br/>06&nbsp;29&nbsp;8&nbsp;42&nbsp;51
+            </div>
+            <div class="email">
+                <span>Email</span>
+                <br/>kenza.trafarski[at]mailo.com
+            </div>
+            <div class="wordpress">
+                <span>Site professionnel</span>
+                <br/><a href="./www.slk-pro.com">www.slk-pro.com</a>
+            </div>
+        </div>
+    </footer>
+</body>
